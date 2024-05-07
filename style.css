@@ -73,3 +73,6 @@ body{
 .descricao-texto{
     color: var(--cinza-secundário);
 }
+.container-descricao{
+    padding: 2em;
+}
