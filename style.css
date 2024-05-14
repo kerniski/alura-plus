@@ -2,6 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundário:#C0C0C0;
     --botao-azul:#167BF7;
+    --botao-azul-efeito: #96b7e0;
     --cor-de-fundo:#00030C;
     --fonte-principal:'inter';
 }
@@ -81,7 +82,7 @@ body{
     justify-content: center;
     list-style-type: none;
 }
-.dispositivo{
+.dispositivos{
     text-align: center;
     margin: 5em 0;
 }
@@ -109,4 +110,14 @@ body{
 .rodape{
     text-align: center;
     margin: 5em 3em;
+}
+.lista-link a:hover{
+    color: var(--botao-azul);
+}
+.lista-link a:active{
+    color: purple;
+}
+.container-botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
